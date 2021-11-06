@@ -6,8 +6,7 @@ const massageEl = document.querySelector('.message')
 
 formEl.addEventListener('input', handleInputChange)
 formEl.addEventListener('submit', handleSubmit)
-// ${ event.target.element.email.value }
-// ${event.target.element.massege.value}
+
 function handleSubmit(event) {
     event.preventDefault()
     console.log(`email: ${event.target.email.value} `)
